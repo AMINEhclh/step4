@@ -68,7 +68,7 @@ export function SignupForm({ onToggleMode }: SignupFormProps) {
     <Card className="w-full max-w-md mx-auto">
       <CardHeader className="text-center">
         <CardTitle className="text-2xl font-bold">Create Account</CardTitle>
-        <CardDescription>Join STEP4 and start planning your future</CardDescription>
+        <CardDescription>Join STEP2 and start planning your future</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         <form onSubmit={handleEmailSignup} className="space-y-4">

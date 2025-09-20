@@ -34,7 +34,7 @@ export default function AuthPage() {
     <div className="min-h-screen bg-gradient-to-br from-background to-muted flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-primary mb-2">STEP4</h1>
+          <h1 className="text-4xl font-bold text-primary mb-2">STEP2</h1>
           <p className="text-muted-foreground text-balance">Plan your day. Wake up with purpose.</p>
         </div>
 
