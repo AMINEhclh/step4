@@ -31,7 +31,7 @@ export function SignupForm({ onToggleMode }: SignupFormProps) {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password)
       await updateProfile(userCredential.user, { displayName: name })
       toast({
-        title: "Welcome to STEP4!",
+        title: "Welcome to STEP2!",
         description: "Your account has been created successfully.",
       })
     } catch (error: any) {
@@ -50,7 +50,7 @@ export function SignupForm({ onToggleMode }: SignupFormProps) {
     try {
       await signInWithPopup(auth, googleProvider)
       toast({
-        title: "Welcome to STEP4!",
+        title: "Welcome to STEP2!",
         description: "You've successfully signed up with Google.",
       })
     } catch (error: any) {
